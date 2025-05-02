@@ -1,16 +1,31 @@
-# favirote_plaseces
+# Favorite Place App
 
-A new Flutter project.
+A location-based Flutter app that allows users to save and preview their favorite places using Google Maps.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add a favorite place with:
+  - Title
+  - Image
+  - Location (via Google Map)
+- Preview saved places on map
+- Save and load data locally
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- Google Maps API
+- Device Camera & File Picker
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+
+1. Clone the repository.
+2. Set up Google Maps API key and configure it.
+3. Run `flutter pub get`
+4. Run `flutter run`
+
+## Author
+
+Haider Hussein Ali  
+[LinkedIn Profile](https://www.linkedin.com/in/haider-hussein-44043422a)
